@@ -1,0 +1,54 @@
+baseurl             = "https://you.github.io/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-US"
+layoutdir           = "layouts"
+publishdir          = "public"
+theme               = "cocoa"
+author              = "Onome Igharoro"
+title               = "Onome Igharoro"
+pygmentsuseclasses  = true
+# disqusshortname     = "cocoaexamplesite"
+pluralizelisttitles = false
+# googleAnalytics     = "UA-123-45"
+
+[permalinks]
+blog  = "blog/:slug/"
+
+[params]
+    author                 = "Onome Igharoro"
+    avatar                 = "img/rolly.png"
+    description            = ""
+    latestpostscount       = 5
+    include_rss            = false
+    i18n_flags             = false
+    cachebuster            = true
+    dateform               = "Jan 2, 2006"
+    dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+    extracssfiles          = [ "/css/override.css" ]
+    # faviconfile            = "img/favicon.ico"
+    lang                   = "en"
+
+    # currently hard-coded in modified theme
+    # selfintro              = ""
+
+    # social & contact
+    email                  = "hello@onome.io"
+    github                 = "//github.com/oigharoro"
+    linkedin               = "//linkedin.com/in/onomeigharoro"
+    # twitter                = "//twitter.com/you"
+    # mastodon               = "//example.com/@you"
+    # telegram               = "//t.me/you"
+    # instagram              = "//instagram.com/you"
+    # px500                  = "//500px.com/username"
+
+    highlightjs            = true
+    # highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
+    # highlightjsStyle     = "darcula"
+
+    # if true, don't show "<x> minutes read" in posts
+    noshowreadtime         = false
+
+    piwik                  = false
+    gitalk                 = false
