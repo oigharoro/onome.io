@@ -1,4 +1,4 @@
-baseurl             = "https://onome.io/"
+baseurl             = "https://www.onome.io/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
