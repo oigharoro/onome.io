@@ -1,4 +1,4 @@
-baseurl             = "http://onome-io.herokuapp.com/"
+baseurl             = "https://onome-io.herokuapp.com/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
